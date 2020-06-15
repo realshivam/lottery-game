@@ -40,3 +40,12 @@ h1{
     font-size: 40px;
 }
 
+.op{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+}
+
