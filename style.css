@@ -1,0 +1,42 @@
+h1{
+    background: darkslategrey;
+    color: white;
+    text-align: center;
+}
+
+.ui{
+
+    border:2px solid black;
+
+
+}
+
+.cr{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    
+    
+
+
+
+
+}
+
+.yy{
+
+    background: teal;
+    color: white;
+    font-size: 50px;
+    border-radius: 20px;
+    
+}
+
+.yy:hover{
+
+    background-color: rgb(9, 61, 61);
+    font-size: 40px;
+}
+
