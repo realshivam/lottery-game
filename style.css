@@ -39,7 +39,6 @@ h1{
     background-color: rgb(9, 61, 61);
     font-size: 40px;
 }
-
 .op{
     
         display: block;
@@ -49,3 +48,43 @@ h1{
       
 }
 
+h2{
+    display: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.gv{
+
+    background: teal;
+    
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+.gv:hover{
+
+    background-color: rgb(9, 61, 61);
+    
+
+}
+
+#io{
+
+    display:none;
+}
+
+#options{
+
+        color: yellowgreen;
+        background: rgb(9, 61, 61);
+        display: none;
+}
