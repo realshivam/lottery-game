@@ -16,6 +16,7 @@ function shivam(clicked){
         
         document.getElementById("options").innerHTML="Congratulations You Win !!!!";
         document.getElementById(y).style.background="green";
+        document.getElementById("win").style.display="block";
         
 
         
@@ -34,6 +35,7 @@ function shivam(clicked){
         document.getElementById("options").innerHTML="Oops Better luck next time !!!! \n the lucky no was "+x;
 
         document.getElementById(y).style.background="red";
+        document.getElementById("lose").style.display="block";
         
 
         document.getElementById("a").disabled = true;
