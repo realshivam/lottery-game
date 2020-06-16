@@ -8,20 +8,26 @@ function shiva()
 function shivam(clicked){
     var x = Math.floor(Math.random() * 5) + 1;
     var y=clicked;
-    if(y==x)
-    {
+    var t=document.getElementById(y).value;
+    
+    if(t==x){
+    
         document.getElementById("options").innerHTML="Congratulations You Win !!!!";
         document.getElementById(y).style.background="green";
 
-
+        
+        
         document.getElementById("a").disabled = true;
         document.getElementById("b").disabled = true;
         document.getElementById("c").disabled = true;
         document.getElementById("d").disabled = true;
         document.getElementById("e").disabled = true;
+
+        document.getElementsByID("lk").value="Play Again"
     }
     else{
-        document.getElementById("options").innerHTML="Oops Better luck next time !!!!";
+        document.getElementById("options").innerHTML="Oops Better luck next time !!!! \n the lucky no was "+x;
+
         document.getElementById(y).style.background="red";
 
 
@@ -30,5 +36,7 @@ function shivam(clicked){
         document.getElementById("c").disabled = true;
         document.getElementById("d").disabled = true;
         document.getElementById("e").disabled = true;
+
+        document.getElementsByID("lk").value="Play Again"
     }
 }
